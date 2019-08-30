@@ -1,0 +1,36 @@
+.container{
+  margin:50px;
+}
+.box2 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: #000000;/*文字色*/
+  font-size: 100px;
+  background: #FFF;
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+  margin: 0; 
+  padding: 0;
+}
+.btn-square-shadow {
+  display: inline-block;
+  padding: 3.5em 8em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+
+}
+.btn-square-shadow:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+.sp{
+  text-align: center;
+}
